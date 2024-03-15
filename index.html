@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Arkanoid</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <h1>Juego de Arkanoid</h1> 
+    <table>
+        <tr>
+            <td colspan="8" rowspan="2" class="marcador">
+                <span class="rojo">1 UP HIGH SCORE</span>
+                <br><span class="blanco">00</span><span class="blancoDos">50000</span>
+            </td>
+        </tr>
+        <tr>  
+        </tr>
+        <tr>
+            <td class="celda" id="celdaUno"></td>
+            <td class="celda" id="celdaUno"></td>
+            <td class="celda" id="celdaUno"></td>
+            <td class="celda" id="celdaUno"></td>
+            <td class="celda" id="celdaUno"></td>
+            <td class="celda" id="celdaUno"></td>
+            <td class="celda" id="celdaUno"></td>
+            <td class="celda" id="celdaUno"></td>
+        </tr>
+        <tr>
+            <td class="celda" id="celdaDos"></td>
+            <td class="celda" id="celdaDos"></td>
+            <td class="celda" id="celdaDos"></td>
+            <td class="celda" id="celdaDos"></td>
+            <td class="celda" id="celdaDos"></td>
+            <td class="celda" id="celdaDos"></td>
+            <td class="celda" id="celdaDos"></td>
+            <td class="celda" id="celdaDos"></td>
+        </tr>
+        <tr>
+            <td class="celda" id="celdaTres"></td>
+            <td class="celda" id="celdaTres"></td>
+            <td class="celda" id="celdaTres"></td>
+            <td class="celda" id="celdaTres"></td>
+            <td class="celda" id="celdaTres"></td>
+            <td class="celda" id="celdaTres"></td>
+            <td class="celda" id="celdaTres"></td>
+            <td class="celda" id="celdaTres"></td>
+        </tr>
+        <tr>
+            <td class="celda" id="celdaCuatro"></td>
+            <td class="celda" id="celdaCuatro"></td>
+            <td class="celda" id="celdaCuatro"></td>
+            <td class="celda" id="celdaCuatro"></td>
+            <td class="celda" id="celdaCuatro"></td>
+            <td class="celda" id="celdaCuatro"></td>
+            <td class="celda" id="celdaCuatro"></td>
+            <td class="celda" id="celdaCuatro"></td>
+        </tr>
+        <tr>
+            <td class="celda" id="celdaCinco"></td>
+            <td class="celda" id="celdaCinco"></td>
+            <td class="celda" id="celdaCinco"></td>
+            <td class="celdaVacia"></td>
+            <td class="celda" id="celdaCinco"></td>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+            <td class="celda" id="celdaCinco"></td>
+        </tr>
+        <tr>
+            <td class="celda" id="celdaSeis"></td>
+            <td class="celdaVacia"></td>
+            <td class="celda" id="celdaSeis"></td>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+            <td class="celda" id="celdaSeis"></td>
+        </tr>
+        <tr>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+        </tr>
+        <tr>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+        </tr>
+        <tr>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+        </tr>
+        <tr>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+        </tr>
+        <tr>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+        </tr>
+        <tr>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+        </tr>
+        <tr>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+            <td colspan="2" class="tablaDelCursos"></td>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+            <td class="celdaVacia"></td>
+        </tr>
+    </table>
+
+</body>
+</html>

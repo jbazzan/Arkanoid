@@ -1,0 +1,92 @@
+@font-face {
+    font-family:Retro;
+    src: url(./Font/RETROTECH.ttf);
+}
+
+body {
+    background-image: url(./img/fondoretro.jpg);
+    background-size: cover;
+    text-align: center;
+    font-family: Retro;
+    color: white;
+    font-size: 52px;
+}
+
+table {
+    margin: 0 auto;
+    width: 800px;
+    height: 500px;
+    border: 5px groove rgb(237, 175, 5);
+    border-radius: 10px;
+    background-color: rgb(62, 59, 59);
+}
+
+tr, td {
+    width: 40px;
+    height: 40px;
+    border: 5px groove gray;
+    border-radius: 5px;
+}
+
+.marcador {
+    font-family: Retro;
+    background-color: black;
+    border: 5px solid black;
+    color: white;
+    border-bottom-color: White;
+}
+
+.rojo {
+    color: red;
+    font-size: 40px;
+}
+
+.blanco {
+    color: white;
+    font-size: 32px;
+}
+.blancoDos {
+    color: white;
+    font-size: 32px;
+    margin-left: 50px;
+}
+
+.celda {
+    border: 1px outset grey;
+    border-radius: 2px;
+}
+
+.celdaVacia {
+    border: 0px outset grey;
+}
+
+#celdaUno {
+    background: rgb(62, 59, 59);
+}
+
+#celdaDos {
+    background: rgb(239, 5, 5);
+}
+
+#celdaTres {
+    background: rgb(239, 216, 5);
+}
+
+#celdaCuatro {
+    background: blue;
+}
+
+#celdaCinco {
+    background: violet;
+}
+
+#celdaSeis {
+    background: green;
+}
+
+.tablaDelCursos {
+    background-image: url(./img/barra.png);
+    background-size:cover;
+    border: 0px outset grey;
+}
+
